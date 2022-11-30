@@ -10,4 +10,8 @@
 <p>Informações extras: {{ form.informacoes.value }}</p>
 <p>Email: {{ pessoa_form.email.value }}</p>
 
+<form action="{% url 'index' %}">
+    <input type="submit" value="Voltar Tela da Passagem" />
+</form>
 {% endblock %}
+

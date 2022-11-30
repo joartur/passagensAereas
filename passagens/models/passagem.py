@@ -1,6 +1,7 @@
 from django.db import models
 from .classe_viagem import ClasseViagem
 
+
 class Passagem(models.Model):
     origem = models.CharField(max_length=100)
     destino = models.CharField(max_length=100)
